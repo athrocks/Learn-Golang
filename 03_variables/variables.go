@@ -13,4 +13,9 @@ func main() {
 	// if type not given it will be inferred from the value
 	var name2 = "golang also"
 	fmt.Println(name2)
+
+	// shorthand syntax for variable declaration
+	name3 := "golang also"
+	fmt.Println(name3)
+	// shorthand syntax for variable declaration with type inference
 }

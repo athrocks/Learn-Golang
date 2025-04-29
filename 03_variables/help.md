@@ -11,6 +11,7 @@ This program demonstrates how to **declare and use variables** in Go. It covers 
 - `var a int = 10`: Declaring a variable with an explicit type.
 - `var name string = "golang"`: Declaring a string variable.
 - `var name2 = "golang also"`: Using **type inference** — Go automatically determines the type based on the value.
+- `name3 := "golang also"`: **Shorthand declaration** using `:=`, only allowed inside functions.
 - **Unused variables cause compile-time errors** — every declared variable must be used.
 
 ## ▶️ How to Run
@@ -25,6 +26,7 @@ go run main.go
 10
 golang
 golang also
+golang also
 ```
 
 ## 📌 Notes
@@ -32,5 +34,7 @@ golang also
 - Go enforces **strict variable usage**: if you declare a variable and don’t use it, the program won’t compile.
 - Type inference makes variable declarations concise but readable.
 - Variable names should be meaningful to improve code readability.
+- Shorthand syntax (:=) automatically infers the type and can only be used within functions.
+
 
 ---
